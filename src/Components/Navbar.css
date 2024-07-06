@@ -1,0 +1,155 @@
+/* .bg-img {
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+  }
+  
+  .navbar {
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  .logo{
+    display: inline;
+    height: 100px;
+    width: 90px;
+    margin-right: 30px;
+  }
+  
+  .text-one{
+    margin-left: 30px;
+    font-weight: lighter;
+  }
+  h1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 30px;
+  }
+  .text-two{
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  .text-three{
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  .button{
+    margin-top: 30px;
+    border-radius: 10px;
+    border-color:black ;
+    margin-left: 30px;
+  } */
+
+
+  /* Responsive.css */
+
+/* Base styles */
+/*  */
+
+
+
+/* Navbar.css */
+
+/* Base styles */
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as needed */
+    background-image: url('../Pics/pupil-instructor-hero-6-desktop.jpg');
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-item {
+    display: inline;
+    margin-right: 20px; /* Decrease margin for smaller screens */
+    color: black;
+    font-weight: bold;
+    font-size: 18px; /* Decrease font size for smaller screens */
+    cursor: pointer;
+  }
+  .logo {
+    display: inline;
+    height: 80px; /* Decrease logo height for smaller screens */
+    width: 80px; /* Decrease logo width for smaller screens */
+    margin-right: 20px; /* Decrease margin for smaller screens */
+  }
+  
+  .text-one {
+    margin-left: 20px; /* Decrease margin for smaller screens */
+    font-weight: lighter;
+  }
+  h1 {
+    font-size: 40px; /* Decrease font size for smaller screens */
+    font-weight: bolder;
+    margin-left: 20px; /* Decrease margin for smaller screens */
+  }
+  .text-two,
+  .text-three {
+    margin-left: 20px; /* Decrease margin for smaller screens */
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+  .button {
+    margin-top: 20px; /* Decrease margin-top for smaller screens */
+    border-radius: 5px; /* Decrease border-radius for smaller screens */
+    border-color: black;
+    margin-left: 20px; /* Decrease margin-left for smaller screens */
+    background-color: #CACACA;
+    color: black;
+  }
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .bg-img {
+      height: 400px; /* Decrease height for smaller screens */
+      background-size: cover;
+      background-image: url('../Pics/pupil-instructor-hero-6-mobile.jpg');
+    }
+  
+    .nav-item {
+      margin-right: 10px; /* Further decrease margin for smaller screens */
+      font-size: 16px; /* Further decrease font size for smaller screens */
+    }
+  
+    .logo {
+      height: 60px; /* Further decrease logo height for smaller screens */
+      width: 60px; /* Further decrease logo width for smaller screens */
+      margin-right: 10px; /* Further decrease margin for smaller screens */
+    }
+  
+    .text-one,
+    h1,
+    .text-two,
+    .text-three {
+      margin-left: 10px; /* Further decrease margin for smaller screens */
+      font-weight: bolder;
+    }
+  
+    .button {
+      margin-top: 10px; /* Further decrease margin-top for smaller screens */
+      border-radius: 3px; /* Further decrease border-radius for smaller screens */
+      margin-left: 10px; /* Further decrease margin-left for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,92 @@
+/* .Card-1{
+    border-color:blue;
+    border-radius: 10px;
+    background-color: gray;
+    width: 87%;
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+.Card-header-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    font-size: 25px;
+}
+.Card-body-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Card-body-1 p{
+    font-size: 20px;
+}
+.download-logos{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.download-logos img{
+    margin-top: 20px;
+} */
+
+/* Responsive.css */
+
+/* Base styles */
+.Card-1 {
+    border-color: #FECC03;
+    border-radius: 10px;
+    background-color: #CACACA;
+    width: 87%;
+    margin-left: 80px;
+    margin-top: 40px;
+  }
+  
+  .Card-header-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    font-size: 25px;
+  }
+  
+  .Card-body-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .Card-body-1 p {
+    font-size: 20px;
+  }
+  
+  .download-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow logos to wrap onto multiple lines */
+  }
+  
+  .download-logos img {
+    margin-top: 20px;
+    margin-right: 20px; /* Add margin between logos */
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .Card-1 {
+      width: 90%; /* Adjust width for smaller screens */
+      margin-left: auto; /* Center the card horizontally */
+      margin-right: auto;
+    }
+  
+    .Card-header-1,
+    .Card-body-1 {
+      flex-direction: column; /* Stack header and body vertically on smaller screens */
+      align-items: center; /* Center align header and body */
+    }
+  
+    .download-logos img {
+      margin-top: 20px;
+      margin-right: 0; /* Reset margin-right to stack logos vertically */
+    }
+  }
+  

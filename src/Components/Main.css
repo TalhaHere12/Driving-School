@@ -1,0 +1,113 @@
+/* .heading{
+    font-size: 30px;
+    margin-left: 500px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    width: 20%; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 80px;
+  }
+  .card-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  .heading {
+    margin: 0;
+  }
+  .card-body {
+    padding: 10px;
+  }
+  .text {
+    margin: 0 0 10px;
+  }
+  .button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+   */
+
+
+   /* Responsive.css */
+
+/* Base styles */
+.heading {
+    font-size: 30px;
+    margin-left: 500px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 30%; /* adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .heading {
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .text {
+    margin: 0 0 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    background-color: #FECC03;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #FECC03;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .heading {
+      font-size: 24px; /* Decrease font size for smaller screens */
+      margin-left: 0; /* Reset margin-left */
+      text-align: center; /* Center align heading */
+    }
+  
+    .card-container {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      align-items: center; /* Center align cards */
+    }
+  
+    .card {
+      width: 80%; /* Adjust card width for smaller screens */
+      margin-top: 20px; /* Decrease margin-top for smaller screens */
+      margin-bottom: 20px; /* Reset margin-bottom */
+    }
+  }
+  

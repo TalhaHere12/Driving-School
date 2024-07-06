@@ -1,0 +1,107 @@
+/* .Heading{
+    font-size: 30px;
+    margin-left: 500px;
+  }
+.Card-Container {
+    display: flex;
+    justify-content: space-around;
+}
+.Card {
+    width: 37%; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+.Card-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.Heading {
+    margin: 0;
+}
+.Card-body {
+    padding: 10px;
+}
+.Text {
+    margin: 0 0 10px;
+}
+.Button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Button:hover {
+    background-color: #0056b3;
+  }
+  
+   */
+
+   /* Responsive.css */
+
+/* Base styles */
+.Heading {
+    font-size: 30px;
+    margin-left: 500px;
+  }
+  
+  .Card-Container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap onto multiple lines */
+    justify-content: center; /* Center align cards horizontally */
+  }
+  
+  .Card {
+    width: 37%; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 80px;
+    background-image: url('../Pics/large-beam.png');
+  }
+  
+  .Card-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .Heading {
+    margin: 0;
+  }
+  
+  .Card-body {
+    padding: 10px;
+  }
+  
+  .Text {
+    margin: 0 0 10px;
+  }
+  
+  .Button {
+    padding: 5px 10px;
+    background-color: #FECC03;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .Button:hover {
+    background-color: #FECC03;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .Heading {
+      font-size: 24px; /* Decrease font size for smaller screens */
+      margin-left: 0; /* Reset margin-left */
+      text-align: center; /* Center align heading */
+    }
+  
+    .Card {
+      width: 80%; /* Adjust card width for smaller screens */
+      margin-top: 20px; /* Decrease margin-top for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,77 @@
+/* .Main-Container {
+    display: flex;
+    margin-top: 20px;
+    width: 87%;
+    background-color: aquamarine;
+    margin-left: 75px;
+  }
+  
+  .Column {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .line1,
+  .line2,
+  .line3 {
+    padding: 5px 0;
+  }
+  
+  .Separator-line {
+    border-left: 1px solid black;
+    height: 100%; 
+  }
+  
+
+ */
+
+ /* Responsive.css */
+
+/* Base styles */
+.Main-Container {
+  display: flex;
+  margin-top: 20px;
+  width: 87%;
+  background-color: #CACACA;
+  margin-left: 75px;
+  border: 1px solid black; /* Add border around the container */
+}
+
+.Column {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.line1,
+.line2,
+.line3 {
+  padding: 5px 0;
+}
+
+.Separator-line {
+  border-left: 1px solid black; /* Add thin line separator between columns */
+  height: 100%;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .Main-Container {
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Column {
+    width: 100%; /* Full width for each column on smaller screens */
+    margin-bottom: 20px; /* Add margin between columns */
+  }
+
+  .Separator-line {
+    display: none; /* Hide separator on smaller screens */
+  }
+}
